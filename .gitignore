@@ -21,3 +21,14 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# 忽略不必要的文件
+**/mvnw
+**/mvnw.cmd
+
+**/.mvn
+
+**/target/
+.idea
+**/.gitignore
+**/.gulimall.iml
